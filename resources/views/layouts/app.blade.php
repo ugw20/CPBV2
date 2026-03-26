@@ -106,7 +106,7 @@
                     if ($toClose.length > 0) {
                         return originalAlert.call($toClose, action);
                     }
-                    return this; 
+                    return this;
                 }
                 return originalAlert.apply(this, arguments);
             };
